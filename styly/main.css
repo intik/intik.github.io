@@ -1,0 +1,69 @@
+:root {
+    --mdc-theme-primary: #00C853;
+    --mdc-theme-secondary: #F0F;
+    --mdc-theme-background: #F00;
+}
+
+.portfolio-logo {
+    background: url(../obrazky/SOPO2.png) 50% no-repeat;
+    background-size: cover;
+    width: 144px;
+    height: 72px;
+    margin: auto auto 10px;
+}
+
+.desktopHeader {
+    background-image: url(../obrazky/header-bg.jpg);
+    padding-top: 0px;
+}
+
+.card-padding {
+    padding: 16px;
+}
+
+.top-header {
+    padding-top: 32px;
+    text-align: center;
+    min-height: 140px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto auto;
+}
+
+.only-desktop {
+    display: none;
+}
+
+.only-mobile {
+    display: block;
+}
+
+.column {
+    margin: 16px;
+}
+
+@media only screen and (min-width: 768px) {
+    .row {
+        display: flex;
+        padding: 8px;
+    }
+
+    .column {
+        flex: 1;
+        margin: 8px;
+    }
+
+    .only-mobile {
+        display: none;
+    }
+
+    .only-desktop {
+        display: block;
+    }
+}
+
+.tabs-container {
+    background-color: rgba(197, 197, 197, 0.44);
+}

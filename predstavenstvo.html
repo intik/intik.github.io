@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Webového stránky bytového družstva BD SoPo - Sokolovská Pobřežní, Karlín, Praha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="cs" />
+    <meta name="author" content="Petr Introvič" />
+    <meta name="copyright" content="Petr Introvič; e-mail: introvic.petr@gmail.com">
+    <meta name="keywords" content="bd-sopo, bytové družstvo, sokolovská, pobřežní, praha, karlín" />
+    <meta name="description"
+        content="Web pro podporu bytového družstva Sokolovská-Pobřežní v Praze 8, Karlín - BD-Sopo" />
+    <meta name="robots" content="index, all, follow" />
+    <meta name="google-site-verification" content="3P2X44k2xdw-yGx0fAHgs8AUivYtNh1zLOrznUWRXdI" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="Author" href="https://plus.google.com/+PetrIntrovi%C4%8D" type="text/html">
+    <link rel="start" href="/" title="BD SoPo" />
+
+    <title>BD SoPo - Bytové družstvo Sokolovská-Pobřežní</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css"
+        href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" />
+    <link rel="stylesheet" type="text/css" href="styly/main.css" />
+
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body class="mdc-typography" style="background-color: #F0F0F0; margin: 0px">
+
+    <header class="only-mobile mdc-top-app-bar">
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+                <button id="menuButton" class="mdc-icon-button material-icons">menu</button>
+                <div class="mdc-menu-surface--anchor">
+                    <div class="mdc-menu mdc-menu-surface">
+                        <ul id="mobileMenu" class="mdc-list" role="menu" aria-hidden="true">
+                            <li class="mdc-list-item" role="menuitem">Úvodní stránka</li>
+                            <li class="mdc-list-item" role="menuitem">Dokumenty</li>
+                            <li class="mdc-list-item" role="menuitem">Aktuality</li>
+                            <li class="mdc-list-item" role="menuitem">Představenstvo</li>
+                            <li class="mdc-list-item" role="menuitem">Adresář</li>
+                        </ul>
+                    </div>
+                </div>
+                <span class="mdc-top-app-bar__title">BD So-Po > Představenstvo</span>
+            </section>
+        </div>
+    </header>
+
+    <div class="only-mobile mdc-top-app-bar--fixed-adjust"></div>
+
+    <noscript class="only-mobile">
+        <header>
+            <ul class="mdc-list">
+                <li class="mdc-list-item" tabindex="0">
+                    <a class="mdc-list-item__text" href="index.html">Úvodní stránka</a>
+                </li>
+                <li class="mdc-list-item">
+                    <a class="mdc-list-item__text" href="dokumenty.html">Dokumenty</a>
+                </li>
+                <li class="mdc-list-item">
+                    <a class="mdc-list-item__text" href="aktuality.html">Aktuality</a>
+                </li>
+                <li class="mdc-list-item">
+                    <a class="mdc-list-item__text" href="predstavenstvo.html">Představenstvo</a>
+                </li>
+                <li class="mdc-list-item">
+                    <a class="mdc-list-item__text" href="adresar.html">Adresář</a>
+                </li>
+            </ul>
+        </header>
+    </noscript>
+
+    <header class="desktopHeader only-desktop">
+        <div class="top-header">
+            <div class="portfolio-logo"></div>
+            <span class="mdc-typography--overline">Bytové družstvo Sokolovská-Pobřežní</span>
+        </div>
+
+        <div class="tabs-container">
+            <div class="mdc-tab-bar container" role="tablist">
+                <div class="mdc-tab-scroller">
+                    <div class="mdc-tab-scroller__scroll-area">
+                        <div class="mdc-tab-scroller__scroll-content">
+                            <a class="mdc-tab" role="tab" aria-selected="false" tabindex="0" href="index.html">
+                                <span class="mdc-tab__content">
+                                    <span class="mdc-tab__text-label">Úvodní stránka</span>
+                                    <span class="mdc-tab-indicator">
+                                        <span
+                                            class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </a>
+                            <a class="mdc-tab" role="tab" aria-selected="false" tabindex="1" href="dokumenty.html">
+                                <span class="mdc-tab__content">
+                                    <span class="mdc-tab__text-label">Dokumenty</span>
+                                    <span class="mdc-tab-indicator">
+                                        <span
+                                            class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </a>
+                            <a class="mdc-tab " role="tab" aria-selected="false" tabindex="2" href="aktuality.html">
+                                <span class="mdc-tab__content">
+                                    <span class="mdc-tab__text-label">Aktuality</span>
+                                    <span class="mdc-tab-indicator">
+                                        <span
+                                            class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </a>
+                            <a class="mdc-tab mdc-tab--active" role="tab" aria-selected="false" tabindex="3"
+                                href="predstavenstvo.html">
+                                <span class="mdc-tab__content">
+                                    <span class="mdc-tab__text-label">Představenstvo</span>
+                                    <span class="mdc-tab-indicator mdc-tab-indicator--active">
+                                        <span
+                                            class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </a>
+                            <a class="mdc-tab " role="tab" aria-selected="false" tabindex="4" href="adresar.html">
+                                <span class="mdc-tab__content">
+                                    <span class="mdc-tab__text-label">Adresář</span>
+                                    <span class="mdc-tab-indicator">
+                                        <span
+                                            class="mdc-tab-indicator__content mdc-tab-indicator__content--underline"></span>
+                                    </span>
+                                </span>
+                                <span class="mdc-tab__ripple"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- MAIN CONTENT -->
+        <div class="container" style="margin-top: 16px;">
+            <div class="mdc-typography--headline4" style="margin-left: 20px;">Představitelé</div>
+
+            <div class="mdc-layout-grid">
+                <div class="mdc-layout-grid__inner">
+                    <div class="mdc-layout-grid__cell--span-4">
+                        <div class="mdc-card">
+                            <div class="my-card__media mdc-card__media mdc-card__media--square"
+                                style="background-image: url('obrazky/introvic.jpg');"></div>
+                            <div class="card-padding">
+                                <div class="mdc-typography--headline6" style="margin-bottom: 10px;">Petr Introvič</div>
+                                <div class="mdc-typography--body1">• introvic@seznam.cz</div>
+                                <div class="mdc-typography--body1">• 420 603 420 427</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdc-layout-grid__cell--span-4">
+                        <div class="mdc-card">
+                            <div class="my-card__media mdc-card__media mdc-card__media--square"
+                                style="background-image: url('obrazky/divisova.jpg');"></div>
+                            <div class="card-padding">
+                                <div class="mdc-typography--headline6" style="margin-bottom: 10px;">Petra Divišová</div>
+                                <div class="mdc-typography--body1">• divisovapetra1@seznam.cz</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mdc-layout-grid__cell--span-4">
+                        <div class="mdc-card">
+                            <div class="my-card__media mdc-card__media mdc-card__media--square"
+                                style="background-image: url('obrazky/anonymous.jpg');"></div>
+                            <div class="card-padding">
+                                <div class="mdc-typography--headline6">Jaroslav Lacina</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mdc-typography--headline4" style="margin-left: 20px; margin-top: 20px;">Členové kontrolní komise
+            </div>
+            <ul class="mdc-list mdc-list--non-interactive">
+                <li class="mdc-list-item" tabindex="0">
+                    <span class="mdc-list-item__graphic material-icons" aria-hidden="true">person</span>
+                    <span class="mdc-list-item__text">Luďka Bodnárová</span>
+                </li>
+                <li class="mdc-list-item">
+                    <span class="mdc-list-item__graphic material-icons" aria-hidden="true">person</span>
+                    <span class="mdc-list-item__text">Martin Dočkal</span>
+                </li>
+                <li class="mdc-list-item">
+                    <span class="mdc-list-item__graphic material-icons" aria-hidden="true">person</span>
+                    <span class="mdc-list-item__text">Tadeáš Novák</span>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer style="margin: 64px; text-align: center">
+        <div>
+            <div class="mdc-typography--overline">
+                Designed by
+                <a href="https://www.facebook.com/intik">Petr Introvič</a>
+                with
+                <a href="https://material-components.github.io/">MDC</a>
+                © 2019 BD SOPO, družstvo
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

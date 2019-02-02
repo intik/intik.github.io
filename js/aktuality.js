@@ -1,0 +1,46 @@
+const news = [
+    { label: "Rekonstrukce výtahu", note: "21.1. - 26.2.2019", icon: "build" },
+    { label: "Odečet plynu", note: "8. 2. 2019 14:00 - 14:20", icon: "local_gas_station" },
+    { label: "Odečet vodoměrů", note: "13.1. 2019 18:00 - 20:00", icon: "insert_chart_outlined" },
+    { label: "Kontrola spalinových cest + revize plynu", note: "7. 1. 2019 14h - 18h", icon: "local_gas_station" },
+    { label: "Členská schůze BD", note: "15. 10. 2018", icon: "group" },
+    { label: "Instalace čipových zámků", note: "21.7.2016", icon: "lock_open" },
+    { label: "Kontrola spalinových cest + revize plynu", note: "4.5.2016", icon: "local_gas_station" },
+    { label: "Členská schůze", note: "25.4.2016 - příslušné dokumenty", icon: "group" },
+    { label: "Členská schůze", note: "4.11.2015 - příslušné dokumenty", icon: "group" },
+    { label: "Členská schůze", note: "29. 4. 2015", icon: "group" },
+    { label: "Daňové přiznání pro rok 2014", note: "29.3.2015 - doplněno do dokumentů", icon: "cloud_upload" },
+    { label: "Členská schůze", note: "21.1.2015", icon: "group" },
+    { label: "Instalace vodoměrů", note: "7. - 16.1.2015", icon: "toys" },
+    { label: "Smlouvy s představenstvem", note: "13.10.2014 - doplněno do dokumentů", icon: "cloud_upload" },
+    { label: "Zápis ze schůze", note: "12.10.2014 - doplněno do dokumentů", icon: "cloud_upload" },
+    { label: "Členská schůze", note: "30. 9. 2014", icon: "group" },
+    { label: "Kupní smlouva o zřízení věcného břemene", note: "26.9.2014 - doplněno do dokumentů", icon: "cloud_upload" },
+    { label: "Zápis do obchodního rejstříku", note: "9. 4. 2013", icon: "fiber_new" }
+
+    // {label: "", note: "", icon: ""},
+];
+
+function writeTopNews() {
+    for (var i = 0; i < 4; i++) {
+        var n = news[i];
+        document.writeln(createItem(n));
+    }
+}
+
+function writeAll() {
+    for (var i = 0; i < news.length; i++) {
+        var n = news[i];
+        document.writeln(createItem(n));
+    }
+}
+
+function createItem(item) {
+    return '<li class="mdc-list-item"> \
+        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">' + item.icon + '</span> \
+        <span class="mdc-list-item__text"> \
+            <span class="mdc-list-item__primary-text">' + item.label + '</span> \
+            <span class="mdc-list-item__secondary-text">' + item.note + '</span> \
+        </span> \
+        </li>';
+}
