@@ -1,5 +1,9 @@
 // { date: "", name: "", note: "", size: "", file: ""},
 
+const documents2019 = [
+    { date: "28. 2. 2019", name: "Pozvánka na schůzi březen 2019", note: "&nbsp;", size: "104 kB ", file: "pozvanka-2019-03-11.pdf"},
+];
+
 const documents2018 = [
     { date: "15. 10. 2018", name: "Zápis schůze č.16", note: "Fixace úvěru, prodej bytu, opravy, úklid", size: "174 kB", file: "zapis-ze-schuze-BD-c16-dne-2018-10-15.pdf" },
     { date: "25. 9. 2018", name: "Pozvánka na schůzi říjen 2018", note: "&nbsp;", size: "105 kB", file: "pozvanka-2018-10-15.pdf" },
@@ -76,6 +80,7 @@ function writeYear(year, documents) {
 </div>");
 }
 
+writeYear(2019, documents2019);
 writeYear(2018, documents2018);
 writeYear(2017, documents2017);
 writeYear(2016, documents2016);
@@ -83,14 +88,10 @@ writeYear(2015, documents2015);
 writeYear(2014, documents2014);
 writeYear(2013, documents2013);
 
-/* for (var i = 0; i < documents.length; i++) {
-    const d = documents[i];
-    const row = "<tr> \
-    <td class='mdc-typography--body2'>" + d.date +"</td> \
-    <td class='mdc-typography--body2'>" + d.name + "</td> \
-    <td class='mdc-typography--body2'>" + d.note + "</td> \
-    <td class='cell-file'><span class='mdc-typography--caption'>" + d.size + "</span> <a class='mdc-icon-button material-icons mdc-theme--primary' href='dokumenty/" + d.file + "'>cloud_download</a></td> \
-    </tr>";
-
-    document.write(row);
-} */
+document.onreadystatechange = () => {
+    if (document.readyState === 'complete') {
+        document.querySelector('.mdc-checkbox__native-control').addEventListener('change', function (e) {
+            console.log("checked!");
+        });
+    }
+};

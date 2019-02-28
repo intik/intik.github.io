@@ -155,36 +155,78 @@
             <noscript class="card-padding">
                 Pro správné zobrazení si <a href="https://www.enable-javascript.com/">zapněte JavaScript</a>.
             </noscript>
-            <script src="js/dokumenty.js"></script>
 
             <!--
-                    <div class="mdc-card mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-                        <div class="mdc-card__primary-action card-padding">
-                            <div class="mdc-typography--headline6"><i class='material-icons mdc-theme--primary' style="vertical-align: text-bottom;">file_download</i>
-                                Zápis schůze č. 16</div>
-                            <div class="mdc-typography--caption">15. 10. 2018 - 174 kB</div>
-                            <div class="mdc-typography--body2">Fixace úvěru, prodej bytu, opravy, úklid</div>
+            <div class="mdc-typography--headline5" style="margin-left: 16px; margin-right: 16px; margin-top: 24px;">Zobrazit</div>
+            <div class="mdc-layout-grid" style="padding-top: 8px !important;">
+                <div class='mdc-layout-grid__inner mdc-card card-padding '>
+                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3 mdc-layout-grid__cell--span-4-tablet mdc-form-field">
+                        <div class="mdc-checkbox">
+                            <input type="checkbox" class="mdc-checkbox__native-control" id="cb-schuze"
+                                checked="checked" />
+                            <div class="mdc-checkbox__background">
+                                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                    <path class="mdc-checkbox__checkmark-path" fill="none"
+                                        d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                                </svg>
+                                <div class="mdc-checkbox__mixedmark"></div>
+                            </div>
                         </div>
+                        <label for="cb-schuze">Schůze</label>
                     </div>
+
+                    <div
+                        class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3 mdc-layout-grid__cell--span-4-tablet mdc-form-field">
+                        <div class="mdc-checkbox">
+                            <input type="checkbox" checked="checked" class="mdc-checkbox__native-control"
+                                id="cb-pozvanky" />
+                            <div class="mdc-checkbox__background">
+                                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                    <path class="mdc-checkbox__checkmark-path" fill="none"
+                                        d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                                </svg>
+                                <div class="mdc-checkbox__mixedmark"></div>
+                            </div>
+                        </div>
+                        <label for="cb-pozvanky">Pozvánky</label>
+
+                    </div>
+                    <div
+                        class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3 mdc-layout-grid__cell--span-4-tablet mdc-form-field">
+                        <div class="mdc-checkbox">
+                            <input type="checkbox" checked="checked" class="mdc-checkbox__native-control"
+                                id="cb-smlouvy" />
+                            <div class="mdc-checkbox__background">
+                                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                    <path class="mdc-checkbox__checkmark-path" fill="none"
+                                        d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                                </svg>
+                                <div class="mdc-checkbox__mixedmark"></div>
+                            </div>
+                        </div>
+                        <label for="cb-smlouvy">Smlouvy</label>
+
+                    </div>
+                    <div
+                        class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3 mdc-layout-grid__cell--span-4-tablet mdc-form-field">
+                        <div class="mdc-checkbox">
+                            <input type="checkbox" checked="checked" class="mdc-checkbox__native-control"
+                                id="cb-ostatni" />
+                            <div class="mdc-checkbox__background">
+                                <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                                    <path class="mdc-checkbox__checkmark-path" fill="none"
+                                        d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                                </svg>
+                                <div class="mdc-checkbox__mixedmark"></div>
+                            </div>
+                        </div>
+                        <label for="cb-ostatni">Ostatní</label>
+                    </div>
+                </div>
+            </div>
             -->
 
-            <!--
-                <div class="container mdc-card card-padding ">
-                    <table cellspacing="0">
-                        <thead>
-                            <tr>
-                                <th class="cell-date mdc-typography--overline">Datum</th>
-                                <th class="cell-name mdc-typography--overline">Soubor</th>
-                                <th class="cell-note mdc-typography--overline">Poznámka</th>
-                                <th class="cell-file mdc-typography--overline">Stažení</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <script src="dokumenty.js"></script>
-                        </tbody>
-                    </table>
-                </div>
-                -->
+            <script src="js/dokumenty.js"></script>
         </div>
 
     </main>
