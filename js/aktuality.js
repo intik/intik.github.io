@@ -1,5 +1,5 @@
 const news = [
-    { label: "Rekonstrukce výtahu", note: "21.1. - 26.2.2019", icon: "build" },
+    { label: "Rekonstrukce výtahu", note: "21.1. - 1.3.2019", icon: "build" },
     { label: "Odečet plynu", note: "8. 2. 2019 14:00 - 14:20", icon: "local_gas_station" },
     { label: "Odečet vodoměrů", note: "13.1. 2019 18:00 - 20:00", icon: "insert_chart_outlined" },
     { label: "Kontrola spalinových cest + revize plynu", note: "7. 1. 2019 14h - 18h", icon: "local_gas_station" },
