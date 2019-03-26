@@ -1,4 +1,6 @@
 const news = [
+    // { label: "", note: "", icon: ""},
+    { label: "Malování společných prostor a výměna osvětlení", note: "20.2. - 10. 4. 2019", icon: "color_lens"},
     { label: "Rekonstrukce výtahu", note: "21.1. - 1.3.2019", icon: "build" },
     { label: "Odečet plynu", note: "8. 2. 2019 14:00 - 14:20", icon: "local_gas_station" },
     { label: "Odečet vodoměrů", note: "13.1. 2019 18:00 - 20:00", icon: "insert_chart_outlined" },
@@ -17,8 +19,6 @@ const news = [
     { label: "Členská schůze", note: "30. 9. 2014", icon: "group" },
     { label: "Kupní smlouva o zřízení věcného břemene", note: "26.9.2014 - doplněno do dokumentů", icon: "cloud_upload" },
     { label: "Zápis do obchodního rejstříku", note: "9. 4. 2013", icon: "fiber_new" }
-
-    // {label: "", note: "", icon: ""},
 ];
 
 function writeTopNews() {
