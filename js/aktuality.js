@@ -1,5 +1,6 @@
 const news = [
     // { label: "", note: "", icon: ""},
+    { label: "Odečet elektřiny", note: "1. 7. 2019", icon: "flash_on"},
     { label: "Malování společných prostor a výměna osvětlení", note: "20.2. - 10. 4. 2019", icon: "color_lens"},
     { label: "Rekonstrukce výtahu", note: "21.1. - 1.3.2019", icon: "build" },
     { label: "Odečet plynu", note: "8. 2. 2019 14:00 - 14:20", icon: "local_gas_station" },
@@ -22,7 +23,7 @@ const news = [
 ];
 
 function writeTopNews() {
-    for (var i = 0; i < 4; i++) {
+    for (var i = 0; i < 5; i++) {
         var n = news[i];
         document.writeln(createItem(n));
     }
