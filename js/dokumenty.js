@@ -1,6 +1,7 @@
 // { date: "", name: "", note: "", size: "", file: ""},
 
 const documents2019 = [
+    { date: "8. 10. 2019", name: "Pozvánka na schůzi říjen 2019", note: "&nbsp;", size: "448 kB ", file: "pozvanka-2019-10-21.pdf"},
     { date: "28. 2. 2019", name: "Pozvánka na schůzi březen 2019", note: "&nbsp;", size: "104 kB ", file: "pozvanka-2019-03-11.pdf"},
 ];
 
