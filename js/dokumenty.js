@@ -2,6 +2,7 @@
 
 const documents2019 = [
     { date: "8. 10. 2019", name: "Pozvánka na schůzi říjen 2019", note: "&nbsp;", size: "448 kB ", file: "pozvanka-2019-10-21.pdf"},
+    { date: "21. 3. 2019", name: "Zápis schůze č.17", note: "Roční uzávěrka, prodej bytu, plán oprav", size: "158 kB", file: "zapis-ze-schuze-BD-c16-dne-2019-03-11.pdf"},
     { date: "28. 2. 2019", name: "Pozvánka na schůzi březen 2019", note: "&nbsp;", size: "104 kB ", file: "pozvanka-2019-03-11.pdf"},
 ];
 
