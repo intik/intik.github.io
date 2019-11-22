@@ -1,6 +1,7 @@
 // { date: "", name: "", note: "", size: "", file: ""},
 
 const documents2019 = [
+    { date: "15. 11. 2019", name: "Zápis schůze č.18", note: "Představení nových členů, opravy a plán oprav 2019/20", size: "143 kB", file: "zapis-ze-schuze-BD-c18-dne-2019-10-21.pdf"},
     { date: "8. 10. 2019", name: "Pozvánka na schůzi říjen 2019", note: "&nbsp;", size: "448 kB ", file: "pozvanka-2019-10-21.pdf"},
     { date: "21. 3. 2019", name: "Zápis schůze č.17", note: "Roční uzávěrka, prodej bytu, plán oprav", size: "158 kB", file: "zapis-ze-schuze-BD-c17-dne-2019-03-11.pdf"},
     { date: "28. 2. 2019", name: "Pozvánka na schůzi březen 2019", note: "&nbsp;", size: "104 kB ", file: "pozvanka-2019-03-11.pdf"},
