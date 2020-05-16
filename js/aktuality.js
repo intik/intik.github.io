@@ -1,5 +1,8 @@
 const news = [
     // { label: "", note: "", icon: ""},
+    { label: "Kontrola spalinových cest + revize plynu", note: "29.5.2020", icon: "local_gas_station" },
+    { label: "Odečet plynu", note: "17. 2. 2020 14:00 - 14:20", icon: "local_gas_station" },
+    { label: "Odečet vodoměrů", note: "13.1. 2020 19:00 - 20:30", icon: "insert_chart_outlined" },
     { label: "Zateplení a malování průchodů", note: "Listopad 2019", icon: "build"},
     { label: "Členská schůze BD", note: "21. 10. 2019", icon: "group"},
     { label: "Odečet elektřiny", note: "1. 7. 2019", icon: "flash_on"},
