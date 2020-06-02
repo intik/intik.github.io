@@ -1,5 +1,9 @@
 // { date: "", name: "", note: "", size: "", file: ""},
 
+const documents2020 = [
+    { date: "2. 6. 2020", name: "Pozvánka na schůzi červen 2020", note: "&nbsp;", size: "472 kB ", file: "pozvanka-2020-06-17.pdf"},
+];
+
 const documents2019 = [
     { date: "15. 11. 2019", name: "Zápis schůze č.18", note: "Představení nových členů, opravy a plán oprav 2019/20", size: "143 kB", file: "zapis-ze-schuze-BD-c18-dne-2019-10-21.pdf"},
     { date: "8. 10. 2019", name: "Pozvánka na schůzi říjen 2019", note: "&nbsp;", size: "448 kB ", file: "pozvanka-2019-10-21.pdf"},
@@ -83,6 +87,7 @@ function writeYear(year, documents) {
 </div>");
 }
 
+writeYear(2020, documents2020);
 writeYear(2019, documents2019);
 writeYear(2018, documents2018);
 writeYear(2017, documents2017);
