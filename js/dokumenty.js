@@ -1,6 +1,7 @@
 // { date: "", name: "", note: "", size: "", file: ""},
 
 const documents2020 = [
+    { date: "29. 6. 2020", name: "Zápis schůze č.19", note: "Nové představenstvo a kontrolní komise, odměnuy okna, výtah, střecha", size: "145 kB", file: "zapis-ze-schuze-BD-c18-dne-2019-10-21.pdf"},
     { date: "2. 6. 2020", name: "Pozvánka na schůzi červen 2020", note: "&nbsp;", size: "472 kB ", file: "pozvanka-2020-06-17.pdf"},
 ];
 
