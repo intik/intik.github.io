@@ -1,5 +1,6 @@
 const news = [
     // { label: "", note: "", icon: ""},
+    { label: "Revize plynovodu a spotřebičů", note: "14. 1. 2021 15:00 - 18:00", icon: "local_gas_station"},
     { label: "Odečet elektřiny", note: "9. 7. 2019 10:00 - 12:00", icon: "flash_on"},
     { label: "Členská schůze BD", note: "17. 6. 2020", icon: "group"},
     { label: "Kontrola spalinových cest + revize plynu", note: "29.5.2020", icon: "local_gas_station" },
