@@ -54,11 +54,11 @@ function writeAll() {
 }
 
 function createItem(item) {
-    return '<li class="mdc-list-item"> \
-        <span class="mdc-list-item__graphic material-icons" aria-hidden="true">' + item.icon + '</span> \
-        <span class="mdc-list-item__text"> \
-            <span class="mdc-list-item__primary-text">' + item.label + '</span> \
-            <span class="mdc-list-item__secondary-text">' + item.note + '</span> \
+    return '<li class="mdc-deprecated-list-item"> \
+        <span class="mdc-deprecated-list-item__graphic material-icons" aria-hidden="true">' + item.icon + '</span> \
+        <span class="mdc-deprecated-list-item__text"> \
+            <span class="mdc-deprecated-list-item__primary-text">' + item.label + '</span> \
+            <span class="mdc-deprecated-list-item__secondary-text">' + item.note + '</span> \
         </span> \
         </li>';
 }
