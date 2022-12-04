@@ -1,5 +1,9 @@
 // { date: "", name: "", note: "", size: "", file: ""},
 
+const documents2022 = [
+    { date: "31. 10. 2022", name: "Zápis schůze č.21", note: "Uzávěrky, opravy 2022, plán oprav 2023", size: "145 kB", file: "zapis-ze-schuze-BD-c20-dne-2022-10-31.pdf"},
+];
+
 const documents2021 = [
     { date: "29. 11. 2021", name: "Zápis schůze č.20", note: "Představení nových členů, uzávěrky, plán oprav", size: "147 kB", file: "zapis-ze-schuze-BD-c20-dne-2021-11-15.pdf"},
     { date: "24. 10. 2021", name: "Pozvánka na schůzi listopad 2021", note: "&nbsp;", size: "105 kB ", file: "pozvanka-2021-11-15.pdf"},
@@ -93,6 +97,7 @@ function writeYear(year, documents) {
 </div>");
 }
 
+writeYear(2022, documents2022);
 writeYear(2021, documents2021);
 writeYear(2020, documents2020);
 writeYear(2019, documents2019);
