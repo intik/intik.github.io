@@ -1,6 +1,6 @@
 const news = [
     // { label: "", note: "", icon: ""},
-    { label: "Oprava a hydroizolace dvora", note: "4. 4. - 15. 7. 2021", icon: "build"},
+    { label: "Oprava a hydroizolace dvora", note: "4. 4. - 15. 11. 2022", icon: "build"},
     { label: "Kontrola spalinových cest", note: "3. 5. 2022", icon: "local_gas_station" },
     { label: "Odečet vodoměrů", note: "18. 1. 2022 18:00 - 19:30", icon: "insert_chart_outlined"},
     { label: "Členská schůze", note: "15. 11. 2021", icon: "group"},
