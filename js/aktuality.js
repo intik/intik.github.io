@@ -1,5 +1,6 @@
 const news = [
     // { label: "", note: "", icon: ""},
+    { label: "Kontrola spalinových cest", note: "24. 5. 2023", icon: "local_gas_station" },
     { label: "Odečet plynu", note: "20. 2. 2023 14:00 - 14:20", icon: "local_gas_station"},
     { label: "Zaměření bytů", note: "6. 2. 2023", icon: "design_services"},
     { label: "Výměna vodoměrů", note: "8. 1. - 30. 1. 2023", icon: "build"},
