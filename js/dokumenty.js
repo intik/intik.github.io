@@ -1,5 +1,9 @@
 // { date: "", name: "", note: "", size: "", file: ""},
 
+const documents2023 = [
+    { date: "27. 6. 2023", name: "Zápis schůze č.22", note: "Uzávěrky, dveře, zámky, společná okna", size: "223 kB", file: "zapis-ze-schuze-BD-c22-dne-2023-06-27.pdf"},
+];
+
 const documents2022 = [
     { date: "31. 10. 2022", name: "Zápis schůze č.21", note: "Uzávěrky, opravy 2022, plán oprav 2023", size: "145 kB", file: "zapis-ze-schuze-BD-c20-dne-2022-10-31.pdf"},
 ];
